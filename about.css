@@ -1,0 +1,51 @@
+#about {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/photo9.jpeg);
+    background-position: center top -200px; /* Mueve la imagen de fondo hacia arriba */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-repeat: no-repeat; /
+}
+
+.container-2 {
+    max-width: 800px;
+    text-align: left;
+    background: white;
+}
+
+.container-2 h1{
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-2 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;    
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    #about{
+       background-image: url(img/photo9.jpeg);
+       width: auto;
+       padding: 0;
+       min-width: 100vh;
+       background-position: -90px;
+    } 
+    .container-2{
+       width: 370px;
+       margin-right: 180px;
+    }
+    .container-2 p{
+        margin-right: 10px;
+    }
+}

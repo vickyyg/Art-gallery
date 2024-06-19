@@ -1,0 +1,48 @@
+#contacto {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/photo3.jpeg);
+    background-position: center top -200px; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.container-2 {
+    max-width: 800px;
+    text-align: left;
+    background: #f55ce8;
+}
+
+.container-2 h1{
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-2 p{
+    font-weight: 800;
+    font-size: 30px;    
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    #contacto{
+       background-image: url(img/photo3.jpeg);
+       width: auto;
+       padding: 0;
+       min-width: 100vh;
+       background-position: center;
+    } 
+    .container-2{
+        margin-right: 198px;
+    }
+   
+}
