@@ -41,15 +41,27 @@
         margin: 0;
         padding: 0;
     }
-    #contacto{
-       background-image: url(img/photo3.jpeg);
-       width: auto;
-       padding: 0;
-       min-width: 100vh;
-       background-position: center;
-    } 
-    .container-2{
-        margin-right: 198px;
+    #contacto {
+        background-image: url(img/photo3.jpeg);
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 0;
+        min-height: 100vh;
+        background-position: center;
+        display: flex; /* Usar flexbox */
+        justify-content: center; /* Centrar horizontalmente */
+        align-items: center; /* Centrar verticalmente */
     }
+
    
+    .container-2 {
+        max-width: 370px; /* Establece el ancho máximo */
+        padding: 0 10px; /* Añade padding horizontal para espacio interno */
+        box-sizing: border-box; /* Incluye el padding y el borde dentro del ancho total */
+        text-align: center; /* Centra el texto dentro del contenedor */
+    }
+
+    .container-2 p {
+        margin: 10px 0; /* Añade un margen vertical */
+    }
 }
